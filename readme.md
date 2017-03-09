@@ -1,1 +1,0 @@
-Blocbox is a new tool designed for creating and collaborating on content. 
