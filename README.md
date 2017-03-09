@@ -1,2 +1,1 @@
-# Blocbox
-Blocbox allows you to create and store content.
+Blocbox is a tool used to create and collaborate on content. Getting started is free
