@@ -21,6 +21,16 @@ html, body{
    line-height: 19px;
    font-weight: 100;
  }
+.sign-in {
+   text-align: center;
+   margin-top: -30px;
+   padding-bottom: 20px;
+   font-size: 13px;
+}
+ img {
+    display: block;
+    margin: 1px auto;
+ }
 
  /* GRID */
  .container {
@@ -38,7 +48,8 @@ html, body{
  .container:after {
    clear: both;
  }
- .one-half, .one-third, .one-fourth {
+
+.one-half, .one-third, .one-fourth {
    width:96%;
    float:left;
    position:relative;
@@ -46,12 +57,18 @@ html, body{
    margin:0 2% 20px;
  }
 
- @media (min-width: 768px) {
+/* tablet */
+@media (min-width: 768px) {
    .container {
      width: 750px;
    }
- }
 
+   img {
+      display: inline-block !important;
+   }
+ }
+ 
+/* desktop width */
  @media (min-width: 992px) {
    .container {
      width: 970px;
@@ -65,12 +82,60 @@ html, body{
    .one-fourth {
      width:21%;
    }
+    .sign-in  {
+      display: none;
+   }
+
+   header .hero img {
+         display: block !important;
+      }
+
+   header nav ul {
+      display:block !important; 
+   }
+
+   img {
+      display: inline-block !important;
+   }
+   p {
+      font-size: 22px !important;
+   }
+
+   header .hero {
+      margin-top: 0px !important;
+   }
  }
+ 
+ /* LARGE MONITOR */
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
+  
+   }
+   .sign-in  {
+      display: none;
+   }
+
+   header .hero img {
+         display: block !important;
+      }
+
+   header nav ul {
+      display:block !important; 
+   }
+
+   img {
+      display: inline-block !important;
+   }
+   p {
+      font-size: 22px !important;
+   }
+
+   header .hero {
+      margin-top: 0px !important;
    }
  }
+ 
 
   /* HEADER */
  header {
@@ -82,7 +147,7 @@ html, body{
    padding:1em 0;
  }
  header nav ul {
-   display:inline;
+   display:none;
    text-align: right;
    float:right;
    margin:0;
@@ -113,20 +178,22 @@ header .hero {
    text-align: center;
    display:block;
    position: relative;
+   padding-bottom: 60px;
+   margin-top: -40px;
  }
  header .hero h1 {
-   font-size:48px;
+   font-size:38px;
    font-weight: normal;
-   margin:95px 0 0;
+   margin: 45px 0 0;
  }
  header .hero p {
-   font-size: 22px;
+   font-size: 15px;
    line-height: 26px;
    font-weight: 100;
    margin:10px 0 40px;
  }
  header .hero img {
-   display: block;
+   display: none;
    margin:3em auto 0;
  }
 
