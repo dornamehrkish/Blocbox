@@ -377,7 +377,7 @@ header .hero {
   /* FOOTER */
  footer {
    background-color: #34495E;
-   background-image: linear-gradient(to top,
+   background-image: linear-gradient(top,
       #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
    color: #FFFFFF;
    height: 150px;
@@ -430,4 +430,41 @@ header .hero {
      padding: 2em 0 2em 1.5em;
      width: 50%;
    }
+ }
+
+
+ @media (max-width: 400px) {
+
+
+   li.one-third{
+      width: 72%;
+      margin: 4% 14%;
+   } 
+
+   section.pricing {
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+   section.testimonials {
+      padding-top: 10px;
+   }
+
+   li.stag-one-fourth {
+      display: none;
+   }
+
+   img.logo {
+      display: none;
+   }
+
+   footer {
+      height: 100px;
+   }
+
+   footer .right-footer-block {
+      background-color: 34495E;
+   }
+.box, .box.middle {
+   min-height: 400px;
+}
  }
