@@ -390,10 +390,20 @@ header .hero {
    text-align: center;
  }
 
-  .left-nav .site-logo img {
+.left-nav .site-logo img {
    width: 75%;
 }
 
+a:hover {
+ border-bottom: 2px solid #2ECC71;}
+
+ a:active {
+   border-bottom: 2px solid #2ECC71;
+ }
+
+.left-nav .items ul li a.current{
+    border-bottom: 2px solid #2ECC71;
+}
 
 
  .left-nav .items {
