@@ -9,7 +9,7 @@
 
 /* These styles assume you are using ul and li */
 .dropit {
-    list-style: none;
+  list-style: none;
   padding: 0;
   margin: 15px 0 0;
   float:right;
@@ -59,3 +59,24 @@
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight:100;
  }
+
+
+
+.dropit.settings-reverse .dropit-open .dropit-submenu li a {
+    color: #34495E;
+    text-decoration: none;
+    font-weight: 100;
+    width: 100%;
+}
+  
+.dropit.settings-reverse .dropit-submenu {
+    bottom: 0;
+    top: inherit;
+    min-width: 130px;
+    right: -11px; }
+
+.dropit.settings-reverse .dropit-open .dropit-submenu:after {
+  bottom: -8px;
+  top: inherit;
+  right: 19px;
+  border-width: 8px 8px 0; }

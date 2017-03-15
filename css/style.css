@@ -490,7 +490,7 @@ a:hover {
  .left-nav .settings a {
    color:#FFFFFF;
    text-decoration: none;
-   text-align: right;
+   text-align: left;
    float: right;
    margin-right:10px;
    margin-top:8px;
